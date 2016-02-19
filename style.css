@@ -1,13 +1,16 @@
-
+.nav-tabs {
+    padding-top: 5px;
+}
 
 .jumbotron h1 {
-    color: whitesmoke;
+    color: ghostwhite;
     margin: auto;
     padding-top: 40px;
     text-align: center;
     font-size: 80px;
     float: none;
     min-height: inherit;
+
 }
 
 .jumbotron p {
@@ -21,13 +24,26 @@
     background-image: url("Optimized_Ocean_image.jpg");
     background-size: cover;
     background-clip: padding-box(1000px);
-    min-width: 1500px;
 }
 
 .container {
-    min-width: 1500px; 
+    min-width: 1000px;
 }
 
+.videos h4 {
+    padding-top: 50px;
+}
 
+.videos iframe {
+    padding-bottom: 50px;
+}
+
+.hometown p {
+    font-size: 200%;
+}
+
+.interests_activities h4 {
+    padding-top: 50px;
+}
 
     
