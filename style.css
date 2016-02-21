@@ -46,4 +46,25 @@
     padding-top: 50px;
 }
 
+.about li {
+    padding-top: 8px;
+}
+
+.about ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%)
+}
+
+.about-description iframe {
+    position: relative;
+}
+
+.about-description h2 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+
+
     
