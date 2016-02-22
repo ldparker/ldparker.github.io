@@ -1,12 +1,6 @@
-$(document).ready(function () {
-  $('nav-tabs').tabs();
-
-  $('.sub-nav a').click(function () {
-    $('.sub-nav li a').removeClass('subnav-active');
-    $(this).addClass('subnav-active');
-  });
-
+$(ul.ul-nav-tabs).tabs("<pane-selector>", {
+    event: 'mouseover',
+    effect: 'slide',
 });
-
 
 $(document).ready(main);
