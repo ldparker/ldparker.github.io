@@ -1,25 +1,11 @@
-.nav-tabs ul {
-    margin: 0px;
-    padding: 0px;
-    padding-top: px;
-    list-style-type: none;
-}
-
-.nav-tabs li {
-    display: inline;
-    text-decoration: none;
-    padding: 0px;
-}
-
 .jumbotron h1 {
     color: ghostwhite;
     margin: auto;
-    padding-top: 0px;
+    padding-top: 25px;
     text-align: center;
     font-size: 80px;
     float: none;
     min-height: inherit;
-
 }
 
 .jumbotron p {
@@ -68,6 +54,7 @@
 
 .about-description iframe {
     position: relative;
+    padding: 5px;
 }
 
 .about-description h2 {
@@ -75,15 +62,7 @@
     padding-bottom: 10px;
 }
 
-
-button {
-    display: inline-block;
-    height: 200px;
-    padding: 2px;
-    margin: 2px;
-    vertical-align: top;
-    width: 400px;
- }
-
-
+.map {
+    padding: 10px;    
+}
     
