@@ -52,17 +52,22 @@
     transform: translateY(20%)
 }
 
-.about-description iframe {
-    position: relative;
-    padding: 5px;
-}
-
 .about-description h2 {
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 10px; 
 }
 
 .map {
     padding: 10px;    
 }
+
+.sauder {
+    padding: 10px;
+}
+
+.ubc {
+    text-align: left;
+    vertical-align: text-top
+}
+
     
