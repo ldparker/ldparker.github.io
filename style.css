@@ -69,5 +69,15 @@
     text-align: left;
     vertical-align: text-top
 }
+    
+.skiing_h4 {
+    background-image: url(Skiing_Backflip.jpg);
+    background-size: cover;
+    background-clip: padding-box;
+}
+
+.profile {
+    text-align: center
+}
 
     
