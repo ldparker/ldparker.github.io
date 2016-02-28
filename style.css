@@ -70,14 +70,66 @@
     vertical-align: text-top
 }
     
-.skiing_h4 {
-    background-image: url(Skiing_Backflip.jpg);
+skiing_h {
+    background-image: url(Optimized_Skiing_Backflip.jpg);
+    background-position: center;
     background-size: cover;
-    background-clip: padding-box;
+    height: 475px;
 }
 
+skiing h2 {
+    color: ghostwhite; 
+}
+   
 .profile {
     text-align: center
 }
 
-    
+.contact {
+    padding-top: 25px;
+}
+
+.note {
+    padding-top: 25px;
+}
+
+.surfing_h {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.surfing_h img {
+    width: 100%;
+    margin: -300px 0 0 0px;
+}
+
+.skiing_h {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.skiing_h img {
+    width:100%;
+    height:100%;
+    margin: 0px 0 0 0px;
+}
+
+.climbing {
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.surfing {
+    padding-bottom: 50px;
+}
+
+.bicycle_touring {
+    padding-bottom: 50px;
+}
+
+.skiing {
+    padding-bottom: 50px;
+}
+
