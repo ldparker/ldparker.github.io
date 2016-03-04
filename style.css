@@ -33,6 +33,10 @@
     padding-bottom: 50px;
 }
 
+.videos h1 {
+    padding-bottom: 30px;
+}
+
 .hometown p {
     font-size: 200%;
 }
@@ -130,6 +134,52 @@ skiing h2 {
 }
 
 .skiing {
+    padding-bottom: 50px;
+}
+
+.premise_pic img {
+    width: 150px;
+    height: 125px;
+    margin: auto;
+}
+
+.clmg_pic img {
+    width: 150px;
+    height: 125px;
+    margin: auto;
+}
+
+.schoolsoft_pic img {
+    width: 320px;
+    height: 125px;
+    margin: auot;
+}
+
+.ceo {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.bentall {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
     padding-bottom: 50px;
 }
 
