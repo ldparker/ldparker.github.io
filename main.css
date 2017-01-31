@@ -16,7 +16,7 @@ body {
     text-align: center;
     overflow-y: hidden;
     position: relative;
-    background-image: url(background2.jpg);
+    background-image: url(background2-optimized.jpg);
     background-attachment:fixed;
     background-size: cover;
 }
