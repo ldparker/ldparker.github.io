@@ -1,0 +1,528 @@
+html, body {
+   height: 100%;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    min-width: 1200px;
+}
+
+.headeroutter {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow-y: hidden;
+    position: relative;
+    background-image: url(background2.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.headerinner {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+    color: red;
+    
+}
+
+.headertext h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7em;
+    margin: 0;
+    font-weight: 200;
+    letter-spacing: 4px;
+    padding-bottom: -100px;
+    color: whitesmoke;
+    display: none;
+    text-align: center;
+    
+}
+
+.socials {
+    font-size: 2.5em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-align: ;
+    position: relative;
+}
+
+.socialsa {
+    color: whitesmoke;
+    font-size: 45px;
+    vertical-align: middle;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+    margin: 0 auto;
+   
+}
+
+
+.arrow {
+    color: black;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    display: none;
+}
+
+.arrowpos {
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    font-size: 6em;
+    margin: 0px;
+    height: 100%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hovered {
+    color: dodgerblue;
+}
+
+.headertext {
+    text-align: center;
+}
+
+/* Post-Header section*/
+.margin {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px; /*top and bottom used to be 50px*/
+    padding-bottom: 0px;
+    min-height: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*About section*/
+.aboutoutter {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-color: ;
+    min-height: 800px;
+    text-overflow: ellipsis; 
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.twothirds {
+    height: 100%;
+    width: 59%;
+    position: relative;
+    display: inline-block;
+    background-color: ;
+    float: left;
+}
+
+.lastthird {
+    height: 100%;
+    width: 39%;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.toursf {
+    width: 100%;
+    float: center;
+}
+
+.tourblurb {
+    margin: 0;
+    font-size: 0.78em;
+    letter-spacing: 0.3px;
+    font-style: ;
+    height: 200%;
+    width: 100%;
+    position: relative;
+}
+
+.aboutcontent {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 125%;
+    position: relative;
+}
+
+/* buttons! */
+/*need to fix position of buttons on the page */
+.buttonsmargins {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+    position: relative;
+    width: 50%;
+}
+
+.buttons {
+    padding-left: 10%;
+    position: relative;
+    padding-top: 50px;
+}
+
+button {
+display: inline-block;
+  border-radius: 1px;
+  background-color: white;
+  border: solid;
+  color: dodgerblue;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\2193';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.library {
+    color: black;
+    background-color: ;
+    display: none;
+    position: relative;
+    border-color: black;
+    width: 150%;
+}
+
+.liblist {
+    columns: 3;
+    line-height: 1.5em;
+}
+
+.liblist li {
+    display: inline-block;
+}
+
+.liblist i {
+    font-weight: 900;
+}
+
+.youtube {
+    position: relative;
+    display: none;
+    width: 163%;
+
+}
+
+.hometown {
+    position: relative;
+    display: none;
+    width: 150%;
+
+}
+
+.hometown iframe {
+    display: inline-block;
+    width: 49.8%;
+}
+
+.interestsbanner {
+    min-height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+    /*background-image: url(surf1.jpg);*/
+    background-attachment:fixed;
+    background-size: cover;
+    min-height: 100%;
+    opacity: 0.9;
+    margin: 0;
+    background-color: darkgrey;
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+.centeralign img {
+}
+
+.interestscyclecontainer {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: dodgerblue;*/
+    display: inline-block;
+    padding-bottom: 75px;
+}
+
+.cyclepic {
+}
+
+.cycleblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.interestsclimbcontainer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    /*background-color: red;*/
+    padding-bottom: 75px;
+}
+
+.climbpic {
+}
+
+.climbblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.interestsskicontainer {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: mediumspringgreen;*/
+}
+
+.skipic {
+}
+
+.skiblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.interestssurfcontainer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    /*background-color: yellow;*/   
+}
+
+.surfpic {
+
+}
+
+.surfblurb {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+.projectsbanner {
+    height: 1650px;
+    width: 100%;
+    position: relative;
+    background-color: ;
+    display: inline-block;
+}
+
+.projects0container {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: gainsboro;
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.projects0pic {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.projects0blurb {
+    float: right;
+    width: 68%;
+}
+
+.projects1container {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: ;
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.projects1pic {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.projects1blurb {
+    float: right;
+    width: 68%;
+}
+
+.projects2container {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: gainsboro;
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.projects2pic {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.projects2blurb {
+    float: right;
+    width: 68%;
+}
+
+.projects3container {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: ;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.projects3pic {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.projects3blurb {
+    float: right;
+    width: 68%;
+}
+
+.footerbanner {
+    height: 25%;
+    width: 100%;
+    position: relative;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    bottom: ;
+    
+}
+
+.footerbanner h2 {
+    color: whitesmoke;
+    font-size: 3em;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+
+.footerbanner p {
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+.socialsend {
+    font-size: 2.5em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-align: ;
+    position: relative;
+}
+
+.socialsaend {
+    color: whitesmoke;
+    font-size: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 auto;
+   
+}
+
+.hoveredend {
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
