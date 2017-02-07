@@ -68,13 +68,17 @@ $(document).ready(function() {
         $(this).removeClass('hoveredend');
     });
     
+    $('.x, .x2, .x3').hover(function() {
+        $('.x, .x2, .x3').toggleClass('xhover');
+    });
+    
     /*Cycling effects begin*/
     
     $('#cyclepic1, .cyclepictext').hover(function() {
-        $('#cyclepic1').addClass('cyclehover');
+        $('#cyclepic1').addClass('interestshover');
     },
     function() {
-        $('#cyclepic1').removeClass('cyclehover');
+        $('#cyclepic1').removeClass('interestshover');
     });
     
     $('#cyclepic1, .cyclepictext').hover(function() {
@@ -100,10 +104,6 @@ $(document).ready(function() {
     });*/
     /* end needs work*/
     
-    $('.x').hover(function() {
-        $('.x').toggleClass('xhover');
-    });
-    
     $('#cyclepic1, .cyclepictext').click(function() {
         $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').hide(0);
         $('.morecyclepics, .x').show(0);
@@ -120,7 +120,113 @@ $(document).ready(function() {
     
     /* Cycling effects end*/
     
+    /* Climbing effects begin*/
     
+    $('#climbpic1, .climbpictext').hover(function() {
+        $('#climbpic1').addClass('interestshover');
+    },
+    function() {
+        $('#climbpic1').removeClass('interestshover');
+    });
+    
+    $('#climbpic1, .climbpictext').hover(function() {
+        $('.climbpictext').show();
+    },
+    function() {
+        $('.climbpictext').hide();
+    });
+    
+    $('#climbpic1, .climbpictext').click(function() {
+        $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').hide(0);
+        $('.moreclimbpics, .x').show(0);
+    });
+    
+    $('.x').click(function() {
+        $('.moreclimbpics, .x').hide(0);
+        $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').show(0);
+    });
+    
+    $('.moreclimbpics').hover(function() {
+        (this).css({width: "200%", height: "200%"}, 'fast');
+    });
+    
+    /* Climbing effects ends */
+    
+    /*Skiing effects begins */
+    
+    $('#skipic1, .skipictext').hover(function() {
+        $('#skipic1').addClass('interestshover');
+    },
+    function() {
+        $('#skipic1').removeClass('interestshover');
+    });
+    
+    $('#skipic1, .skipictext').hover(function() {
+        $('.skipictext').show();
+    },
+    function() {
+        $('.skipictext').hide();
+    });
+    
+    $('#skipic1, .skipictext').click(function() {
+        $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').hide(0);
+        $('.moreskipics, .x2').show(0);
+        $('html , body').animate( {
+            scrollTop: $('.interestsbanner').offset().top
+        }, 500);
+    });
+    
+    $('.x2').click(function() {
+        $('.moreskipics, .x2').hide(0);
+        $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').show(0);
+        $('html , body').animate( {
+            scrollTop: $('.interestsskicontainer').offset().top
+        }, 500);
+    
+    });
+    
+    $('.moreskipics').hover(function() {
+        (this).css({width: "200%", height: "200%"}, 'fast');
+    });
+    
+    /*skiing effects end*/
+    
+    /*surf effects begin */
+    
+    $('#surfpic1, .surfpictext').hover(function() {
+        $('#surfpic1').addClass('interestshover');
+    },
+    function() {
+        $('#surfpic1').removeClass('interestshover');
+    });
+    
+    $('#surfpic1, .surfpictext').hover(function() {
+        $('.surfpictext').show();
+    },
+    function() {
+        $('.surfpictext').hide();
+    });
+    
+    $('#surfpic1, .surfpictext').click(function() {
+        $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').hide(0);
+        $('.moresurfpics, .x3').show(0);
+        $('html , body').animate( {
+            scrollTop: $('.interestsbanner').offset().top
+        }, 500);
+    });
+    
+    $('.x3').click(function() {
+        $('.moresurfpics, .x3').hide(0);
+        $('.interestsclimbcontainer, .interestsskicontainer, .interestssurfcontainer, .interestscyclecontainer').show(0);
+        $('html , body').animate( {
+            scrollTop: $('.interestssurfcontainer').offset().top
+        }, 500);
+    
+    });
+    
+    $('.moreskipics').hover(function() {
+        (this).css({width: "200%", height: "200%"}, 'fast');
+    });
     
     
   

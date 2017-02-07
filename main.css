@@ -87,7 +87,7 @@ body {
     position: relative;
     color: whitesmoke;
     font-size: 6em;
-    margin: 0px;
+    margin-right: 13px;
     height: 100%;
     cursor: pointer;
     display: inline-block;
@@ -309,6 +309,12 @@ button:hover span:after {
     cursor: pointer;
 }
 
+.interestshover {
+    opacity: 0.7;
+    color: black;
+    cursor: pointer;
+}
+
 .xbanner {
     width: 100%;
     text-align: right;
@@ -325,7 +331,37 @@ button:hover span:after {
     float: right;
     display: none;
     margin-right: 75px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: -10px;
 }
+
+.x2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    width: 3%;
+    float: right;
+    display: none;
+    margin-right: 75px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+.x3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    width: 3%;
+    float: right;
+    display: none;
+    margin-right: 75px;
+}
+
+
 
 .xhover {
     color: whitesmoke;
@@ -357,7 +393,7 @@ button:hover span:after {
 
 .cyclepictext {
     position: absolute;
-    top: 250px;
+    top: 220px;
     left: 230px;
     font-size: 2em;
     font-family: 'Open Sans', sans-serif;
@@ -368,11 +404,7 @@ button:hover span:after {
     cursor: pointer;
 }
 
-.cyclehover {
-    opacity: 0.7;
-    color: black;
-    cursor: pointer;
-}
+
 
 /*.cyclehover2 {
     opacity: 0.7;
@@ -388,6 +420,18 @@ button:hover span:after {
 }
 
 .morecyclepics img {
+    width: 350px;
+    height: 237px;
+}
+
+.moreclimbpics {
+    display: none;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+}
+
+.moreclimbpics img {
     width: 350px;
     height: 237px;
 }
@@ -427,7 +471,20 @@ button:hover span:after {
     height: 237px;
 }
 
+.climbpictext {
+    position: absolute;
+    top: 220px;
+    right: 230px;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    display: none;
+    height: 0px;
+    background-color: black;
+    cursor: pointer;
+}
 
+/*skiing interests*/
 .interestsskicontainer {
     width: 50%;
     height: 100%;
@@ -443,6 +500,34 @@ button:hover span:after {
     padding-right: 40px;
 }
 
+/* more skiing pictures*/ 
+
+.moreskipics {
+    display: none;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+}
+
+.moreskipics img {
+    width: 350px;
+    height: 237px;
+}
+
+.skipictext {
+    position: absolute;
+    bottom: 500px;
+    left: 230px;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    display: none;
+    height: 0px;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*surf interests*/
 .interestssurfcontainer {
     width: 50%;
     height: 100%;
@@ -451,7 +536,6 @@ button:hover span:after {
 }
 
 .surfpic {
-
 }
 
 .surfblurb {
@@ -459,6 +543,31 @@ button:hover span:after {
     padding-right: 40px;
 }
 
+/*more surf pics*/
+.moresurfpics {
+    display: none;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+}
+
+.moresurfpics img {
+    width: 350px;
+    height: 237px;
+}
+
+.surfpictext {
+    position: absolute;
+    bottom: 500px;
+    right: 230px;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    display: none;
+    height: 0px;
+    background-color: black;
+    cursor: pointer;
+}
 
 
 
